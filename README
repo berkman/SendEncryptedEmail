@@ -1,0 +1,6 @@
+[ Add to the bottom of /etc/postfix/main.cf (Mac) ]
+relayhost = mysmtpserver.fqdn
+mydomain = mydomain.fqdn
+
+[ Restart postfix (Mac) ]
+$ sudo postfix reload
