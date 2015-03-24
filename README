@@ -1,3 +1,17 @@
+Files:
+
+GenerateSenderKey.sh		- Optional.  Generate a signing/encrypting key and certificate
+SendEncryptedEmail.sh		- Send the email!
+
+email_body.txt			- The body of the email.  Duh.
+recipient-certificate.pem	- Sample recipient certificate (for encryption)
+sender-certificate.pem		- Sample sender certificate (for signing)
+sender-key.pem			- Sample (I swear) sender private key (for signing/encryption)
+smime.cfg			- OpenSSL config file to add S/MIME extensions to the Sender's certificate
+
+
+Postfix Configuration:
+
 [ Add to the bottom of /etc/postfix/main.cf (Mac) ]
 relayhost = mysmtpserver.fqdn
 mydomain = mydomain.fqdn
