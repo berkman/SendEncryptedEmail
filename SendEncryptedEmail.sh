@@ -4,10 +4,8 @@ EMAIL_MESSAGE=email_body.txt
 SENDER_PRIVATE_KEY=sender-key.pem
 SENDER_CERTIFICATE=sender-certificate.pem
 SENDER_ADDRESS=sender@mail.localhost
-#RECIPIENT_ADDRESS=recipient@mail.localhost
-#RECIPIENT_CERTIFICATE=recipient-certificate.pem
-RECIPIENT_ADDRESS=mberkman@cisco.com
-RECIPIENT_CERTIFICATE=mberkman-certificate.pem
+RECIPIENT_ADDRESS=recipient@mail.localhost
+RECIPIENT_CERTIFICATE=recipient-certificate.pem
 SUBJECT="Signed and Encrypted message via OpenSSL"
 
 
